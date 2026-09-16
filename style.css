@@ -1,11 +1,21 @@
-:root{--bg:#0f1115;--card:#171a21;--text:#e8eaf0;--muted:#9aa3b2;--accent:#3b82f6}
-@media (prefers-color-scheme: light){:root{--bg:#f6f7f9;--card:#fff;--text:#14171c;--muted:#5b6472}}
-*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
-main{max-width:760px;margin:0 auto;padding:32px 20px 64px}
-header{display:flex;align-items:center;gap:14px;margin-bottom:24px}header img{width:64px;height:64px;border-radius:14px}
-h1{font-size:1.8rem;margin:0}h2{font-size:1.15rem;margin:28px 0 8px}p,li{color:var(--text)}.muted{color:var(--muted)}
-nav a{margin-right:16px;color:var(--accent);text-decoration:none}nav{margin:8px 0 24px}
-.card{background:var(--card);border-radius:14px;padding:18px 20px;margin:14px 0;box-shadow:0 1px 3px rgba(0,0,0,.15)}
-.lang{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 24px}.lang a{padding:6px 12px;border-radius:999px;background:var(--card);color:var(--text);text-decoration:none;font-size:.9rem}.lang a.on{background:var(--accent);color:#fff}
-section[lang]{display:none}section[lang].on{display:block}[dir=rtl]{text-align:right}
-footer{margin-top:40px;color:var(--muted);font-size:.85rem}
+:root{--bg:#f5f6f8;--card:#fff;--text:#111827;--muted:#5b6472;--accent:#2563eb;--line:#e5e7eb;--yellow:#ffcc33}
+*{box-sizing:border-box}html{color-scheme:light}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+main{max-width:860px;margin:0 auto;padding:28px 20px 56px}
+a{color:var(--accent)}
+nav{display:flex;gap:18px;flex-wrap:wrap;margin:0 0 28px;padding-bottom:14px;border-bottom:1px solid var(--line);font-weight:500}nav a{text-decoration:none}nav a.on{color:var(--text)}
+.hero{display:flex;align-items:center;gap:22px;margin:8px 0 26px}.hero img{width:96px;height:96px;border-radius:22px;box-shadow:0 6px 18px rgba(0,0,0,.12)}
+.hero h1{font-size:2.2rem;margin:0 0 4px;letter-spacing:-.01em}.hero p{margin:0;font-size:1.1rem;color:var(--muted)}
+.badge{display:inline-block;margin-top:10px;padding:6px 12px;border-radius:999px;background:#fff7d6;color:#7a5a00;font-size:.85rem;font-weight:600}
+h2{font-size:1.35rem;margin:34px 0 12px}h3{font-size:1.02rem;margin:0 0 4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px 16px}
+.card .ico{width:40px;height:40px;border-radius:12px;background:#eaf1ff;color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:10px}
+.card p{margin:0;color:var(--muted);font-size:.97rem}
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.steps div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}.steps div::before{counter-increment:s;content:counter(s);display:inline-flex;width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font-weight:700;align-items:center;justify-content:center;margin-bottom:8px}
+.privacy{background:#eefbf3;border:1px solid #cdeedb;border-radius:16px;padding:18px 20px}.privacy p{margin:6px 0 0;color:#14532d}
+.langs{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 22px}.langs a,.langs span{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--text);text-decoration:none;font-size:.9rem;unicode-bidi:isolate}.langs a.on{background:var(--accent);border-color:var(--accent);color:#fff}
+section[lang]{display:none}section[lang].on{display:block}section[dir=rtl]{text-align:right}section[lang] h1{font-size:1.7rem;margin:0 0 4px}section[lang] h2{font-size:1.15rem;margin:24px 0 6px}
+.muted{color:var(--muted)}.faq p{margin:8px 0}
+footer{margin-top:44px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem;display:flex;gap:16px;flex-wrap:wrap}
+@media (max-width:520px){.hero{flex-direction:column;align-items:flex-start}.hero h1{font-size:1.8rem}}
