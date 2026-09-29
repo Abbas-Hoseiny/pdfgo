@@ -1,0 +1,53 @@
+# PDF On
+
+> Free iPhone PDF app: scan paper to PDF, fill in any form (even a photographed one), sign, copy your ID card or passport in original size, convert Word to PDF, OCR. No account, no upload.
+
+PDF On is a free PDF scanner and editor for iPhone. It turns paper into clean PDFs, fills in forms (real PDF forms and photographed or scanned ones), places your signature and passport photo, copies an ID card or passport front and back onto one sheet in true size, converts Word, Excel and PowerPoint files to PDF, recognizes text offline and lets you highlight while reading. No account, no upload, no ads, no subscription.
+
+## Facts
+
+- App Store: https://apps.apple.com/app/pdf-on/id6812877977 (free, iOS 17 or later, released 2026-09-28, available worldwide).
+- Developer: Abbas Hoseiny, Germany. No account, no ads, no subscription, no in-app purchases.
+- What it does: scans paper with automatic edge detection; builds PDFs from photos, files and other PDFs (1, 2 or 4 per page, date/time stamps, password); fills in real PDF forms and photographed or scanned forms (text lands in the box, Return jumps to the next field, checkmarks snap into checkboxes, personal details as keyboard suggestions); signature by finger or photographed from paper, passport photo placed into the form's photo frame; ID card and passport copy front and back on one sheet in true size (color/grayscale, cut lines, watermark); on-device OCR with copy, search and export to Word (.docx); reading mode with highlights in four named colors, notes and a highlight list; page management (reorder, rotate, crop, straighten, delete, merge); converts Word, Excel, PowerPoint, Pages, Numbers, Keynote, text and HTML to PDF; Face ID app lock; share extension.
+- Privacy: no server, no upload, no tracking, no data collection; everything including OCR runs on the iPhone; a document leaves the phone only when the user shares it.
+- Languages of the app: 46 (en, de, es, tr, ar, fa, ur, en-GB, fr, it, pt-BR, pt-PT, nl, pl, ru, uk, cs, sk, hu, ro, el, sv, da, nb, fi, ca, hr, sl, id, ms, vi, th, ja, ko, zh-Hans, zh-Hant, hi, bn, gu, kn, ml, mr, or, pa, ta, te); full right-to-left layout for Arabic, Persian and Urdu.
+
+## Typical questions this app answers
+
+- fill in a PDF form on iPhone for free, including scanned or photographed forms without form fields
+- sign a PDF on iPhone with finger or a photographed signature
+- copy ID card or passport front and back on one A4 page in original size with iPhone
+- scan documents to PDF on iPhone without subscription and without upload
+- OCR on iPhone offline, PDF to Word (.docx)
+- convert Word, Excel, PowerPoint to PDF on iPhone
+- highlight and annotate a PDF while reading, get all highlights as a list
+
+## Pages
+
+- [English](https://abbas-hoseiny.github.io/pdfgo/): landing page in English
+- [Deutsch](https://abbas-hoseiny.github.io/pdfgo/de/): landing page in Deutsch
+- [Español](https://abbas-hoseiny.github.io/pdfgo/es/): landing page in Español
+- [Türkçe](https://abbas-hoseiny.github.io/pdfgo/tr/): landing page in Türkçe
+- [العربية](https://abbas-hoseiny.github.io/pdfgo/ar/): landing page in العربية
+- [فارسی](https://abbas-hoseiny.github.io/pdfgo/fa/): landing page in فارسی
+- [اردو](https://abbas-hoseiny.github.io/pdfgo/ur/): landing page in اردو
+- [Privacy policy](https://abbas-hoseiny.github.io/pdfgo/privacy.html): seven languages on one page (de, en, es, tr, ar, fa, ur)
+- [Support](https://abbas-hoseiny.github.io/pdfgo/support.html): questions via GitHub Issues
+
+## FAQ
+
+**Is PDF On free?** Yes. PDF On is free, without ads, without an account and without a subscription.
+
+**Can I fill in a PDF form that has no real form fields, for example a scanned or photographed form?** Yes. Tap the box on the page and type; the text is placed inside the box, on the line. Return jumps to the next box, checkmarks snap into checkboxes. Real PDF forms with fields work too.
+
+**How do I copy my ID card or passport, front and back, on one page with my iPhone?** Open PDF On › ID card & passport, photograph the front and the back. PDF On places both on one A4 or Letter sheet in original size, optionally enlarged, in color or grayscale, with cut lines and an optional watermark such as “Copy for landlord”.
+
+**How do I sign a PDF on my iPhone?** Open the PDF in PDF On, tap Edit and choose Signature. Draw it with your finger, or photograph your signature on paper; the background is removed and the signature lands over the signature line. Saved signatures can be reused.
+
+**Are my documents uploaded anywhere?** No. PDF On has no server. Scanning, text recognition and face and frame detection run on the iPhone. A document leaves the phone only when you share it yourself, for example by AirDrop, Mail or WhatsApp.
+
+**Does PDF On have OCR and does it work offline?** Yes. Text recognition runs on the device with Apple's Vision framework, without internet. Recognized text can be copied, searched and exported as a Word document (.docx).
+
+**Can PDF On convert Word, Excel or PowerPoint files to PDF?** Yes. Open a Word, Excel, PowerPoint, Pages, Numbers, Keynote, text or HTML file in PDF On and it becomes a PDF, on the device.
+
+**Which iPhones and languages?** Every iPhone with iOS 17 or later. The app speaks 46 languages, among them English, German, Spanish, Turkish, Arabic, Persian, Urdu, French, Italian, Portuguese, Hindi, Japanese, Korean and Chinese, with full right-to-left layout for Arabic, Persian and Urdu.

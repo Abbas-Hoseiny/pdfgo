@@ -19,3 +19,12 @@ section[lang]{display:none}section[lang].on{display:block}section[dir=rtl]{text-
 .muted{color:var(--muted)}.faq p{margin:8px 0}
 footer{margin-top:44px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem;display:flex;gap:16px;flex-wrap:wrap}
 @media (max-width:520px){.hero{flex-direction:column;align-items:flex-start}.hero h1{font-size:1.8rem}}
+.lead{font-size:1.08rem}
+.cta{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:12px}.cta.bottom{margin:30px 0 0;justify-content:center}.cta .note{color:var(--muted);font-size:.9rem}
+.store img{display:block;width:150px;height:50px}
+.problems{margin:0;padding-inline-start:22px}.problems li{margin:6px 0}
+.shots{display:flex;gap:14px;overflow-x:auto;padding:4px 2px 10px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shots figure{flex:0 0 auto;margin:0;width:240px;scroll-snap-align:start}.shots img{display:block;width:240px;height:auto;border-radius:22px;border:1px solid var(--line);box-shadow:0 6px 18px rgba(0,0,0,.10)}
+.shots figcaption{margin-top:8px;font-size:.86rem;color:var(--muted);line-height:1.4}
+.faq h3{margin:14px 0 4px}.faq h3:first-child{margin-top:0}.faq p{margin:0 0 6px;color:var(--muted)}
+html[dir=rtl] .problems{padding-inline-start:22px}
